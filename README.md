@@ -181,13 +181,4 @@ curl -i -u user:user123 -X DELETE http://localhost:8080/customers/1      # 403
 - **Segurança:** erros 401/403 retornam JSON no mesmo formato dos demais erros.
 - **Evoluções possíveis:** retry com backoff e circuit breaker (Resilience4j), paginação nas listagens, Flyway, Swagger/OpenAPI, usuários em banco, soft delete.
 
-## 9. Publicar no Git
-
-```bash
-git init
-git add .
-git commit -m "feat: customer service com consulta de score"
-git branch -M main
-git remote add origin <URL-DO-SEU-REPOSITORIO>
-git push -u origin main
 ```
