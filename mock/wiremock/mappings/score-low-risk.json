@@ -1,0 +1,9 @@
+{
+  "name": "Score OK - LOW_RISK",
+  "request": { "method": "GET", "urlPath": "/scores/12345678901" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": { "cpf": "12345678901", "score": 750, "classification": "LOW_RISK" }
+  }
+}

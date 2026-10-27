@@ -1,0 +1,5 @@
+{
+  "name": "Falha: servico externo retorna 500",
+  "request": { "method": "GET", "urlPath": "/scores/11111111111" },
+  "response": { "status": 500, "body": "Internal Server Error" }
+}

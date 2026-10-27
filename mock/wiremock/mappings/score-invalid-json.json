@@ -1,0 +1,9 @@
+{
+  "name": "Falha: corpo nao e um JSON valido",
+  "request": { "method": "GET", "urlPath": "/scores/55555555555" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "body": "{ this is not json"
+  }
+}

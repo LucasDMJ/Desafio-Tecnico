@@ -1,0 +1,9 @@
+{
+  "name": "Falha: resposta inesperada (JSON com outra estrutura)",
+  "request": { "method": "GET", "urlPath": "/scores/33333333333" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": { "unexpected": "payload" }
+  }
+}

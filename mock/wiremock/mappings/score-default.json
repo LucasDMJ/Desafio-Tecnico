@@ -1,0 +1,6 @@
+{
+  "name": "Qualquer outro CPF -> 404",
+  "priority": 10,
+  "request": { "method": "GET", "urlPathPattern": "/scores/.*" },
+  "response": { "status": 404 }
+}

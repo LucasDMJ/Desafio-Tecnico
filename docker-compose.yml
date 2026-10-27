@@ -1,0 +1,8 @@
+# Sobe o mock do servico de score na porta 8089
+services:
+  score-mock:
+    image: wiremock/wiremock:3.9.1
+    ports:
+      - "8089:8080"
+    volumes:
+      - ./mock/wiremock:/home/wiremock

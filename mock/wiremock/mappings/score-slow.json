@@ -1,0 +1,10 @@
+{
+  "name": "Falha: demora excessiva (10s)",
+  "request": { "method": "GET", "urlPath": "/scores/22222222222" },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 10000,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": { "cpf": "22222222222", "score": 600, "classification": "MEDIUM_RISK" }
+  }
+}

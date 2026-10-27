@@ -1,0 +1,5 @@
+{
+  "name": "Score nao encontrado para o CPF",
+  "request": { "method": "GET", "urlPath": "/scores/44444444444" },
+  "response": { "status": 404 }
+}
